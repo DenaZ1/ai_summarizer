@@ -83,7 +83,7 @@ const Demo = () => {
               ↵
             </button>
         </form>
-        {/* Browse URL Jistory*/}
+        {/* Browse URL history*/}
         <div className="flex flex-col gap-1 max-h-60 overflow-y-auto">
           {allArticles.map((item, index) => (
             <div
